@@ -1,0 +1,1 @@
+<div class="container"><div class="page-heading"><span class="section-kicker">404</span><h1>Halaman tidak ditemukan</h1><p>Alamat yang diminta tidak tersedia.</p></div><a class="btn btn-outline-success" href="/">Kembali ke beranda</a></div>

@@ -1,0 +1,1 @@
+<div class="container"><div class="page-heading"><span class="section-kicker">Gangguan sementara</span><h1>Layanan belum dapat dimuat</h1><p>Tim teknis dapat memeriksa log server. Tidak ada rincian teknis sensitif yang ditampilkan di halaman ini.</p></div><a class="btn btn-outline-success" href="/">Kembali ke beranda</a></div>

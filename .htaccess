@@ -1,0 +1,12 @@
+Options -Indexes
+RewriteEngine On
+
+<FilesMatch "^(\.env(?:\..*)?|composer\.(json|lock)|README\.md|.*\.(sql|log|bak))$">
+    Require all denied
+</FilesMatch>
+
+RewriteRule ^\.git(?:/|$) - [F,L,NC]
+RewriteRule ^(?:includes|storage|database|tests)/ - [F,L,NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
